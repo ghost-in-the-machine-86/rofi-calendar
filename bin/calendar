@@ -5,7 +5,7 @@ current_day=$(date +"%e")
 current_month=$(date +"%m")
 current_year=$(date +"%Y")
 
-month=$(date +"%m")
+month=$(date +"%-m")
 year=$(date +"%Y")
 previous_month="◀"
 next_month="▶"
